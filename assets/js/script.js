@@ -14,7 +14,7 @@ var questionNumber = 0;
 var answer = $("<div>");
 $("#scoreToBeat").text(highScore);
 $("#success").on("click", setUserScore); 
-$(".answerBtn").on("click", rightOrWrong);
+
 var countdown = setInterval (function() {
     timer--;
     $("#timer").text("Timer: " + timer);
