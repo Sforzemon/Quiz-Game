@@ -11,3 +11,9 @@ Press start to begin the quiz and start the timer
 There is a highscore button onthe top left that will open a Modal with the leaderboard.
 
 The timer is not shown unless you are in the game, it is hidden until then.
+
+
+[Screenshots](https://github.com/Sforzemon/Quiz-Game/blob/master/Screen%20Shot%202019-12-21%20at%2011.49.32%20PM.png)
+
+
+[Screenshots](https://github.com/Sforzemon/Quiz-Game/blob/master/Screen%20Shot%202019-12-21%20at%2011.51.25%20PM.png)
