@@ -16,23 +16,21 @@
   <body>
     <header>
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <a class="navbar-brand mr-4" href="#">Home</a>
+      <a class="navbar-brand mr-4" href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <button type="button" data-toggle="modal" data-target="#highScoreModal" class="btn btn-light">
+        <button type="button" id="highScoreBoard" data-toggle="modal" data-target="#highScoreModal" class="btn btn-light">
           High Score:<span class="badge badge-dark ml-2" id="scoreToBeat">highScore</span>
         </button>
         <span id="timer" class="navbar-text text-white ml-auto">
         </span>
       </div>
     </nav>
-    </header>
-
+    </header> 
     <div class="mainBody">
-      <div class="container">
-        
+      <div class="container">  
         <div class="row align-items-center h-100 quizScreen">
           <div class="col-6 mx-auto">
             <div class="row">
@@ -40,10 +38,9 @@
                   <div class="card-body">
                       <h5 class="card-title" id="cardHeader">Quiz Game</h5>
                       <p class="card-text" id="cardContent">Welcome to this brief quiz.<br>Race against the timer and try and top the scoreboard<br><br>Each wrong answer will deduct 15 seconds from your time.<br>The game ends when you finish, or the timer hits 0<br><br>Good Luck!</p>
-                        <button class="btn btn-dark startBtn btn-lg w-100 mt-4" value="standard">Start the Coding Quiz</button> 
-                      <div id="questions">
+                        <button class="btn btn-dark startBtn btn-lg w-100 mt-4" value="standard">Start the Coding Quiz</button>
+                        <a href="index.html" class="btn btn-dark newQuizBtn btn-lg w-100 mt-4 d-none" role="button" aria-pressed="true">Take Another Quiz!</a>
                           <div id="choices">
-                          </div> 
                         </div> 
                           <hr>
                           <span id="rightOrWrong"></span>
@@ -99,7 +96,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <form>
+              <form>                                                                                                                                                          
                 <div>
                   Better luck next time.
                 </div>
@@ -129,12 +126,12 @@
               </button>
             </div>
             <div class="modal-body">
-              <form id="leaderboard">
+              <form id="leaderBoard">
               </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-dark">New Game!</button>
+              <button type="button" class="btn btn-dark clearLeaderBoard">Reset Leaderboard</button>
             </div>
           </div>
         </div>

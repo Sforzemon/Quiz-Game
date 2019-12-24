@@ -20,8 +20,13 @@ var questionsBasic = [
         answer: 'document.write("Hello World")'
     },
     {
-        title: "jQuery is a...",
+        title: "HTML/CSS are...",
         choices: ["Ruby Gem", "JavaScript Library", "PHP Framework", "None of the above"],
-        answer: "JavaScript library"
+        answer: "None of the above"
     },
+    {
+        title: "Is this the last question?",
+        choices: ["Yup!", "I think so...", "I'm not so sure.", "None of your business"],
+        answer: "Yup!"
+    }
   ];
